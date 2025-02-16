@@ -5,28 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benedetta (Bennie) Giocoli</title>
     <style>
-        body { font-family: Raleway, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-        h1 { color: #0f7d6e; }
-        a { color: #2980b9; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: Raleway, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f4f9f8;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0d5c52;
+            padding: 15px 30px;
+            color: white;
+            font-size: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #0f7d6e;
+        }
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        .social-links {
+            margin-top: 30px;
+        }
+        .social-links img {
+            width: 40px;
+            margin: 0 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Benedetta (Bennie) Giocoli</h1>
-    <p>I am an MPhil student in Comparative Government at the Department of Politics and International Relations (DPIR), University of Oxford and a member of Lincoln College. My current research aims to identify the mechanisms of early political socialisation within the family using long-running household panel surveys from the United Kingdom. More broadly, I am interested in studying the formation of political attitudes, identities, and preferences using quantitative methods. My studies at Oxford are fully funded by a DPIR Studentship. I also hold a Senior Scholarship at Lincoln College. </p>
-
-    </p>I previously obtained a First Class Honours BSc in Philosophy, Politics and Economics with Social Data Science from University College London.</p>
-
-    <h2>Conference papers</h2>
-    <ul>
-        <li><strong>Unstable Partisanship during Scandals: The Causal Impact of Partygate on Identification with and Support for the Conservative Party</strong> - Elections, Public Opinion and Parties Annual Conference, Sep. 2024. <a href="https://github.com/benegiocoli/partygate/blob/bcf7011df5478072a47a22cdfcea9c65b4b675f0/Partygate.pdf">[PDF]</a></li>
-        <li><strong>Persuasion Effects of Cultural and Economic Narratives on Immigration Attitudes</strong> - Elections, Public Opinion and Parties Early Career Workshop, Sep. 2024. </li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>Email: benedetta.giocoli@politics.ox.ac.uk</p>
-    <p><a href="https://github.com/benegiocoli">GitHub</a> | 
-       <a href="https://www.politics.ox.ac.uk/person/benedetta-giocoli">University of Oxford</a> |
-       <a href="https://linkedin.com/in/benedetta-giocoli">LinkedIn</a></p>
+    <header>
+        <div><strong>Benedetta (Bennie) Giocoli</strong></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="conferences.html">Conferences</a>
+        </nav>
+    </header>
+    
+    <h1>Welcome</h1>
+    <img src="profile.jpg" alt="Benedetta Giocoli" class="profile-pic">
+    <p>I am an MPhil student in Comparative Government at the Department of Politics and International Relations (DPIR), University of Oxford and a member of Lincoln College...</p>
+    
+    <div class="social-links">
+        <a href="https://github.com/benegiocoli"><img src="github-logo.png" alt="GitHub"></a>
+        <a href="https://www.politics.ox.ac.uk/person/benedetta-giocoli"><img src="oxford-logo.png" alt="Oxford"></a>
+        <a href="https://linkedin.com/in/benedetta-giocoli"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+        <a href="https://bsky.app/profile/benegiocoli"><img src="bluesky-logo.png" alt="Bluesky"></a>
+    </div>
 </body>
 </html>
